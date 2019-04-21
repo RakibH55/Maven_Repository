@@ -1,0 +1,18 @@
+Feature:
+  Scenario: TC1 search for a keyword in google home page and capture results
+    Given I navigate to google.com
+    When I verify my Google Home title
+    Then I enter a keyword in my search field
+    And I click on Search Icon
+    When I verify the Google Search
+    Then I capture the search result
+
+
+
+
+
+
+
+
+
+

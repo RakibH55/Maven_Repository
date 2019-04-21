@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite" parallel="none">
+    <test name="Regression Testing">
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="Action_item_test_cases_java.ActionItem_8___1"/>
+            <class name="Action_item_test_cases_java.WW_ActionItem____1"/>
+        <parameter name="Browser" value="Firefox"/>
+        </classes>
+    </test>
+
+    <test name="Regression">
+        <parameter name="browser" value="Firefox"/>
+        <classes>
+            <class name="Action_item_test_cases_java.USPS"/>
+            <class name="Action_item_test_cases_java.Yahoo"/>
+       </classes>
+    </test>
+
+</suite>
